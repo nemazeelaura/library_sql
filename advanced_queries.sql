@@ -1,8 +1,9 @@
 -- ADVANCED / JOIN QUERIES
 -- For all of these queries, you SHOULD NOT use an id # in a WHERE clause
+    SELECT * FROM authors JOIN books ON authors.id = books.author_id WHERE authors.name = 'George R.R. Martin';
 
 -- Find all fields (book and author related) for all books written by George R.R. Martin.
-
+	SELECT * FROM authors JOIN books ON authors.id = books.author_id WHERE authors.name = 'Milan Kundera';
 -- Find all fields (book and author related) for all books written by Milan Kundera.
 
 -- Find all books written by an author from China or the UK.
@@ -16,3 +17,9 @@
 -- Find all authors whose names start with 'J'.
 
 -- Find all books whose titles contain 'the'.
+
+
+
+
+	
+
